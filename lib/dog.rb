@@ -3,11 +3,11 @@ class Dog #FOCUS ON DOT NOTATION, LOOK UP EXAMPLES
   
   def initialize(name)
     @name = name
-    self.save
+    self.save #.save is the method call, which is doing something to the left side of the period.THIS IS IMPLICIT
     end
     
     def save
-      @@all << self
+      @@all << self #this shovels self into 
     end
   
   
