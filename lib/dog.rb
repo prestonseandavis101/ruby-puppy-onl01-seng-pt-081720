@@ -24,7 +24,7 @@ class Dog #FOCUS ON DOT NOTATION, LOOK UP EXAMPLES
 end
 
 def self.print_all
-  all.each {|x| puts x.name}
+  all.each {|x| puts x.name} #go back and understand iterations
 end
   
 
