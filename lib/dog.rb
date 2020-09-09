@@ -1,9 +1,9 @@
-class Dog
+class Dog #FOCUS ON DOT NOTATION, LOOK UP EXAMPLES
   @@all = []
   
   def initialize(name)
     @name = name
-    save.all
+    self.save
     end
     
     def save
