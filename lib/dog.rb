@@ -7,7 +7,7 @@ class Dog #FOCUS ON DOT NOTATION, LOOK UP EXAMPLES
     end
     
     def save
-      @@all << self #this shovels self into 
+      @@all << self #this shovels self into the @@all class variable
     end
   
   
